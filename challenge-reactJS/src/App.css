@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.app-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(200, 198, 198);
+}
+.card-cat-information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18rem;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.img-cat{
+  width: 17rem;
+  border-radius: 20px;
+  padding: 20px;
+}
+.description-cat{
+  text-align: center;
+  padding: 10px ;
+  font-size: 18px;
+}
+.newcat-button{
+  padding: 15px 35px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  background: rgb(152, 62, 236);
+  cursor: pointer;
+  color: white;
+  transition: .2s;
+  margin-bottom: 10px;
+}
+.newcat-button:hover{
+  background: rgb(108, 25, 185);
+  color: black;
+}
